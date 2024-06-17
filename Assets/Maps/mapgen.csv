@@ -1,0 +1,6 @@
+42,Custom,5,5,3,2,45,5,6,300,300,2,4,True,True,100,5,5,1,#FF000000,#FF000000,#FF3CB371,#00FFFFFF,#FF708090,#FFB0C4DE,
+MapNodeControl,0,105.606416981602,284.164676251067,106,284,RandomRoom,15,Random,0,10,0,
+MapNodeControl,1,710.767945530383,514.74840318501,711,515,RandomRoom,15,Random,0,10,0,
+ConnectionControl,0,1,10,20,RandomWalk,MapNodeControl,2,598.864266264905,130.681951136838,599,131,RandomRoom,15,Random,0,10,0,
+MapNodeControl,3,179.638241089174,618.166294890139,180,618,RandomRoom,15,Random,0,10,0,
+ConnectionControl,2,3,10,20,RandomWalk,ConnectionControl,0,3,10,20,RandomWalk,
