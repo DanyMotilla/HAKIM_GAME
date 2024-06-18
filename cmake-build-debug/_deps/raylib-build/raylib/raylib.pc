@@ -1,4 +1,4 @@
-prefix=C:/Program Files (x86)/SmallGame
+prefix=C:/Program Files (x86)/HAKIM_GAME
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

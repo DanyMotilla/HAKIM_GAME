@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/SmallGame
+prefix=C:/Program Files (x86)/HAKIM_GAME
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/SmallGame/include
-libdir=C:/Program Files (x86)/SmallGame/lib
+includedir=C:/Program Files (x86)/HAKIM_GAME/include
+libdir=C:/Program Files (x86)/HAKIM_GAME/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

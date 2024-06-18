@@ -1,0 +1,3 @@
+C:\Users\Danie\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\HAKIM_GAME.dir/objects.a
+C:\Users\Danie\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\HAKIM_GAME.dir/objects.a @CMakeFiles\HAKIM_GAME.dir\objects1.rsp
+C:\Users\Danie\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\HAKIM_GAME.dir/objects.a -Wl,--no-whole-archive -o HAKIM_GAME.exe -Wl,--out-implib,libHAKIM_GAME.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HAKIM_GAME.dir\linkLibs.rsp

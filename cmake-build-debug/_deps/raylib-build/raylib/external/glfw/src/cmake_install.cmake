@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Danie/Desktop/SmallGame/cmake-build-debug/_deps/raylib-src/src/external/glfw/src
+# Install script for directory: C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-src/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SmallGame")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/HAKIM_GAME")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

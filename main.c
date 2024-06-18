@@ -43,8 +43,8 @@ int main(void)
     InitWindow(screenWidth, screenHeight, "JAKIM THE UNTOUCHABLE");
 
     // NOTE: Textures MUST be loaded after window initialization (OpenGL context is required)
-    Texture2D jakim = LoadTexture("C:\\Users\\Danie\\Desktop\\SmallGame\\Assets\\Meow Knight\\Meow-Knight_Idle.png");
-    Texture2D MAP = LoadTexture("C:\\Users\\Danie\\Desktop\\SmallGame\\Assets\\Maps\\MAP_9.png");
+    Texture2D jakim = LoadTexture("C:\\Users\\Danie\\Documents\\Github\\HAKIM_CAT\\Assets\\Meow Knight\\Meow-Knight_Idle.png");
+    Texture2D MAP = LoadTexture("C:\\Users\\Danie\\Documents\\Github\\HAKIM_CAT\\Assets\\Maps\\MAP_9.png");
 
     Vector2 playerPosition = {400.0f, 225.0f };
     Vector2 mapPosition = {0.0f,0.0f };
