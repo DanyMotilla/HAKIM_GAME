@@ -34,14 +34,13 @@ int main(void)
     Texture2D jakim = LoadTexture("C:\\Users\\Danie\\Documents\\Github\\HAKIM_CAT\\Assets\\Meow Knight\\Meow-Knight_Idle.png");
     Texture2D MAP = LoadTexture("C:\\Users\\Danie\\Documents\\Github\\HAKIM_CAT\\Assets\\Maps\\MAP_9.png");
 
+    Rectangle playerFrameRec = { 0.0f, 0.0f, (float)jakim.width, (float)jakim.height/6 };
+    // Origin of the texture (rotation/scale point), it's relative to destination rectangle size
+    Vector2 playerOrigin = {(float)jakim.width/2.0f, (float)jakim.height/6.0f};
     Vector2 playerPosition = {400.0f, 225.0f };
     float playerRotation = 0.0f;
 
-    Rectangle frameRec = { 0.0f, 0.0f, (float)jakim.width, (float)jakim.height/6 };
-
-
     int currentFrame = 0;
-
     int framesCounter = 0;
     int framesSpeed = 8;                 // Number of sprite sheet frames shown by second
 
@@ -51,10 +50,6 @@ int main(void)
     camera.rotation = 0.0f;
     camera.zoom = 1.0f;
     float rotationAmount = 1.0f;
-
-    // Origin of the texture (rotation/scale point), it's relative to destination rectangle size
-    Vector2 origin = {(float)jakim.width/2.0f, (float)jakim.height/6.0f};
-    //Rectangle frameRecMapEnd = { 0.0f, 0.0f, (float)MAP.width, (float)MAP.height };
 
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
@@ -81,7 +76,7 @@ int main(void)
 
             if (currentFrame > 5) currentFrame = 0;
 
-            frameRec.y = (float)currentFrame*(float)jakim.height/6;
+            playerFrameRec.y = (float)currentFrame*(float)jakim.height/6;
         }
         // Control frames speed
         if (IsKeyPressed(KEY_RIGHT)) framesSpeed++;
@@ -95,11 +90,9 @@ int main(void)
 
         // Camera rotation controls
         if (IsKeyDown(KEY_Q)) {
-            //camera.rotation -= rotationAmount;
             playerRotation -= rotationAmount;
         }
         else if (IsKeyDown(KEY_E)) {
-            //camera.rotation += rotationAmount;
             playerRotation += rotationAmount;
         }
 
@@ -138,15 +131,17 @@ int main(void)
         BeginMode2D(camera);
 
         DrawTexturePro(MAP,
-                       (Rectangle){ playerPosition.x, playerPosition.y, (float)MAP.width, (float)MAP.height },
-                         (Rectangle){ playerPosition.x, playerPosition.y, (float)MAP.width, (float)MAP.height },
-                        (Vector2){playerPosition.x - camera.target.x + (float)MAP.width/2 + origin.x, playerPosition.y - camera.target.y + (float)MAP.height/2 + origin.y},
-                        -playerRotation, WHITE);
+                       (Rectangle) {playerPosition.x, playerPosition.y, (float) MAP.width, (float) MAP.height},
+                       (Rectangle) {playerPosition.x, playerPosition.y, (float) MAP.width, (float) MAP.height},
+                       (Vector2) {playerPosition.x - camera.target.x + (float) MAP.width / 2 + playerOrigin.x,
+                                  playerPosition.y - camera.target.y + (float) MAP.height / 2 + playerOrigin.y},
+                       -playerRotation, WHITE);
 
         DrawTexturePro(jakim,
-                       frameRec,
-                         (Rectangle){ camera.target.x, camera.target.y, (float)jakim.width, (float)jakim.height/6 },origin,
-                         playerRotation, WHITE);
+                       playerFrameRec,
+                       (Rectangle) {camera.target.x, camera.target.y, (float) jakim.width, (float) jakim.height / 6},
+                       playerOrigin,
+                       playerRotation, WHITE);
 
 
         DrawLine((int)camera.target.x, -screenHeight*10, (int)camera.target.x, screenHeight*10, GREEN);
