@@ -1,28 +1,16 @@
 /*******************************************************************************************
-*
-*   raylib [core] example - Basic window
-*
-*   Welcome to raylib!
-*
-*   To test examples, just press F6 and execute raylib_compile_execute script
-*   Note that compiled executable is placed in the same folder as .c file
-*
-*   You can find all basic examples on C:\raylib\raylib\examples folder or
-*   raylib official webpage: www.raylib.com
-*
-*   Enjoy using raylib. :)
-*
-*   Example originally created with raylib 1.0, last time updated with raylib 1.0
-*
-*   Example licensed under an unmodified zlib/libpng license, which is an OSI-certified,
-*   BSD-like license that allows static linking with closed source software
-*
-*   Copyright (c) 2013-2024 Ramon Santamaria (@raysan5)
-*
+*        Art by Joan Stark
+*                           _ |\_
+*                           \` ..\
+*                      __,.-" =__Y=
+*                    ."        )
+*              _    /   ,    \/\_
+*             ((____|    )_-\ \_-`
+*        jgs  `-----'`-----` `--`
 ********************************************************************************************/
 
 /*******************************************************************************************
- * JAKIM THE UNTOUCHABLE!
+ * JAKIM THE UNTOUCHABLE! by Daniel Motilla Monreal
  *******************************************************************************************/
 
 #include "raylib.h"
@@ -47,10 +35,10 @@ int main(void)
     Texture2D MAP = LoadTexture("C:\\Users\\Danie\\Documents\\Github\\HAKIM_CAT\\Assets\\Maps\\MAP_9.png");
 
     Vector2 playerPosition = {400.0f, 225.0f };
-    Vector2 mapPosition = {0.0f,0.0f };
+    float playerRotation = 0.0f;
 
     Rectangle frameRec = { 0.0f, 0.0f, (float)jakim.width, (float)jakim.height/6 };
-    Rectangle frameRecMap = { 0.0f, 0.0f, (float)MAP.width, (float)MAP.height };
+
 
     int currentFrame = 0;
 
@@ -59,9 +47,14 @@ int main(void)
 
     Camera2D camera = { 0 };
     camera.target = (Vector2){ playerPosition.x + 20.0f, playerPosition.y + 20.0f };
-    camera.offset = (Vector2){ screenWidth/2.0f, screenHeight/2.0f };
+    camera.offset = (Vector2){ (float)screenWidth/2.0f, (float)screenHeight/2.0f };
     camera.rotation = 0.0f;
     camera.zoom = 1.0f;
+    float rotationAmount = 1.0f;
+
+    // Origin of the texture (rotation/scale point), it's relative to destination rectangle size
+    Vector2 origin = {(float)jakim.width/2.0f, (float)jakim.height/6.0f};
+    //Rectangle frameRecMapEnd = { 0.0f, 0.0f, (float)MAP.width, (float)MAP.height };
 
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
@@ -101,12 +94,25 @@ int main(void)
         camera.target = (Vector2){ playerPosition.x + 8, playerPosition.y + 8 };
 
         // Camera rotation controls
-        if (IsKeyDown(KEY_Q)) camera.rotation--;
-        else if (IsKeyDown(KEY_E)) camera.rotation++;
+        if (IsKeyDown(KEY_Q)) {
+            //camera.rotation -= rotationAmount;
+            playerRotation -= rotationAmount;
+        }
+        else if (IsKeyDown(KEY_E)) {
+            //camera.rotation += rotationAmount;
+            playerRotation += rotationAmount;
+        }
+
+        // Ensure rotation is between 0 and 360 degrees
+        if (playerRotation >= 360.0f) playerRotation -= 360.0f;
+        else if (playerRotation < 0.0f) playerRotation += 360.0f;
+
+        // Synchronize the camera's rotation with the player's rotation
+        camera.rotation = playerRotation;
 
         // Limit camera rotation to 80 degrees (-40 to 40)
-        if (camera.rotation > 40) camera.rotation = 40;
-        else if (camera.rotation < -40) camera.rotation = -40;
+        //if (camera.rotation > 40) camera.rotation = 40;
+        //else if (camera.rotation < -40) camera.rotation = -40;
 
         // Camera zoom controls
         camera.zoom += ((float)GetMouseWheelMove()*0.05f);
@@ -119,6 +125,7 @@ int main(void)
         {
             camera.zoom = 1.0f;
             camera.rotation = 0.0f;
+            playerRotation = 0.0f;
         }
         //----------------------------------------------------------------------------------
 
@@ -130,11 +137,20 @@ int main(void)
 
         BeginMode2D(camera);
 
-        DrawTextureRec(MAP, frameRecMap, mapPosition, WHITE);
+        DrawTexturePro(MAP,
+                       (Rectangle){ playerPosition.x, playerPosition.y, (float)MAP.width, (float)MAP.height },
+                         (Rectangle){ playerPosition.x, playerPosition.y, (float)MAP.width, (float)MAP.height },
+                        (Vector2){playerPosition.x - camera.target.x + (float)MAP.width/2 + origin.x, playerPosition.y - camera.target.y + (float)MAP.height/2 + origin.y},
+                        -playerRotation, WHITE);
 
-        DrawTextureRec(jakim, frameRec, playerPosition, WHITE);  // Draw part of the texture
+        DrawTexturePro(jakim,
+                       frameRec,
+                         (Rectangle){ camera.target.x, camera.target.y, (float)jakim.width, (float)jakim.height/6 },origin,
+                         playerRotation, WHITE);
+
+
         DrawLine((int)camera.target.x, -screenHeight*10, (int)camera.target.x, screenHeight*10, GREEN);
-        DrawLine(-screenWidth*10, (int)camera.target.y, screenWidth*10, (int)camera.target.y, GREEN);
+        DrawLine(-screenWidth*10, (int)camera.target.y, screenWidth*10, (int)camera.target.y, RED);
 
         EndMode2D();
 
@@ -145,6 +161,7 @@ int main(void)
     // De-Initialization
     //--------------------------------------------------------------------------------------
     UnloadTexture(jakim);
+    UnloadTexture(MAP);
 
     CloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
