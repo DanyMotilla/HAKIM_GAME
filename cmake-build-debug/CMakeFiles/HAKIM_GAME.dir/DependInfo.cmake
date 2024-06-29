@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Danie/Documents/GitHub/HAKIM_CAT/main.c" "CMakeFiles/HAKIM_GAME.dir/main.c.obj" "gcc" "CMakeFiles/HAKIM_GAME.dir/main.c.obj.d"
+  "C:/Users/Danie/Documents/GitHub/HAKIM_GAME/main.c" "CMakeFiles/HAKIM_GAME.dir/main.c.obj" "gcc" "CMakeFiles/HAKIM_GAME.dir/main.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

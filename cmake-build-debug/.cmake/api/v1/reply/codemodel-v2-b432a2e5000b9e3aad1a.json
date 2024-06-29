@@ -151,21 +151,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "HAKIM_GAME::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HAKIM_GAME-Debug-361a55b4c061e6b31640.json",
+					"jsonFile" : "target-HAKIM_GAME-Debug-41750f3db2329e9ab04a.json",
 					"name" : "HAKIM_GAME",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glfw::@9de86fbe87260ae8e66c",
-					"jsonFile" : "target-glfw-Debug-378f366ea2a8ff1254cf.json",
+					"jsonFile" : "target-glfw-Debug-f931bee774537880969a.json",
 					"name" : "glfw",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "raylib::@4dc3a4644cf4ded08c01",
-					"jsonFile" : "target-raylib-Debug-7b163e42ef25fb6f8d94.json",
+					"jsonFile" : "target-raylib-Debug-a3aab919c29aebd30599.json",
 					"name" : "raylib",
 					"projectIndex" : 1
 				},
@@ -189,8 +189,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug",
-		"source" : "C:/Users/Danie/Documents/GitHub/HAKIM_CAT"
+		"build" : "C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug",
+		"source" : "C:/Users/Danie/Documents/GitHub/HAKIM_GAME"
 	},
 	"version" : 
 	{

@@ -73,11 +73,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-src/src"
+					"path" : "C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
+					"path" : "C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
 				}
 			],
 			"language" : "C",

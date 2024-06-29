@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rtext.c \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\raylib.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rtext.c \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\raylib.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,9 +10,9 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\config.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\utils.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rlgl.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\config.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\utils.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rlgl.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
@@ -32,7 +32,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/stb_rect_pack.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/stb_rect_pack.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/assert.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/stb_truetype.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/stb_truetype.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/math.h

@@ -1,8 +1,8 @@
-if(NOT EXISTS "C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/install_manifest.txt")
+if(NOT EXISTS "C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/install_manifest.txt")
 endif()
 
-file(READ "C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/install_manifest.txt" files)
+file(READ "C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

@@ -1,7 +1,7 @@
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_thread.c \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\internal.h \
- C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_thread.c \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\internal.h \
+ C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
@@ -13,9 +13,9 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.o
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\platform.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\null_platform.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_platform.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\platform.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\null_platform.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_platform.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
@@ -236,8 +236,8 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.o
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/xinput.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/dbt.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\null_joystick.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_joystick.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_thread.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_time.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\null_joystick.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_joystick.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_thread.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_time.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/assert.h

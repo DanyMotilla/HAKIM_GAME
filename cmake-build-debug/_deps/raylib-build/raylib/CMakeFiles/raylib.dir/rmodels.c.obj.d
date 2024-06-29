@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rmodels.c \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\raylib.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rmodels.c \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\raylib.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,10 +10,10 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\config.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\utils.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rlgl.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\raymath.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\config.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\utils.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rlgl.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\raymath.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/math.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -33,17 +33,17 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/tinyobj_loader_c.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/tinyobj_loader_c.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/assert.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/cgltf.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/cgltf.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/float.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/vox_loader.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/m3d.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/par_shapes.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/vox_loader.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/m3d.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/par_shapes.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/direct.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/io.h

@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\raudio.c \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\raylib.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\raudio.c \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\raylib.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,8 +10,8 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\config.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\utils.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\config.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\utils.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/excpt.h \
@@ -266,7 +266,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/imm.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/mmreg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pshpack1.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/miniaudio.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/miniaudio.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/assert.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/math.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
@@ -281,12 +281,12 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/stat.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/io.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/dr_wav.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/stb_vorbis.c \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/dr_mp3.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/qoa.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/qoaplay.c \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/jar_xm.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/dr_wav.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/stb_vorbis.c \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/dr_mp3.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/qoa.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/qoaplay.c \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/jar_xm.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/jar_mod.h
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/jar_mod.h

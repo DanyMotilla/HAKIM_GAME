@@ -52,10 +52,10 @@ RM = C:\Users\Danie\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_CAT
+CMAKE_SOURCE_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_GAME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug
 
 # Utility rule file for update_mappings.
 
@@ -66,8 +66,8 @@ include _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.d
 include _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src && C:\Users\Danie\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src && C:\Users\Danie\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings
 update_mappings: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -78,10 +78,10 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
+	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
 .PHONY : _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Danie\Documents\GitHub\HAKIM_CAT C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external\glfw\src C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Danie\Documents\GitHub\HAKIM_GAME C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/depend
 

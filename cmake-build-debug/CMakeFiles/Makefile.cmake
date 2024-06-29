@@ -55,7 +55,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ProcessorCount.cmake"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Templates/CPackConfig.cmake.in"
-  "C:/Users/Danie/Documents/GitHub/HAKIM_CAT/CMakeLists.txt"
+  "C:/Users/Danie/Documents/GitHub/HAKIM_GAME/CMakeLists.txt"
   "CMakeFiles/3.29.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeRCCompiler.cmake"

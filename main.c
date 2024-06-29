@@ -31,8 +31,8 @@ int main(void)
     InitWindow(screenWidth, screenHeight, "JAKIM THE UNTOUCHABLE");
 
     // NOTE: Textures MUST be loaded after window initialization (OpenGL context is required)
-    Texture2D jakim = LoadTexture("C:\\Users\\Danie\\Documents\\Github\\HAKIM_CAT\\Assets\\Meow Knight\\Meow-Knight_Idle.png");
-    Texture2D MAP = LoadTexture("C:\\Users\\Danie\\Documents\\Github\\HAKIM_CAT\\Assets\\Maps\\MAP_9.png");
+    Texture2D jakim = LoadTexture("./Assets/Meow Knight/Meow-Knight_Idle.png");
+    Texture2D MAP = LoadTexture("./Assets/Maps/MAP_9.png");
 
     Rectangle playerFrameRec = { 0.0f, 0.0f, (float)jakim.width, (float)jakim.height/6 };
     // Origin of the texture (rotation/scale point), it's relative to destination rectangle size

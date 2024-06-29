@@ -52,10 +52,10 @@ RM = C:\Users\Danie\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_CAT
+CMAKE_SOURCE_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_GAME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include _deps/raylib-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/raylib-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/raylib-build/CMakeFiles/uninstall:
-	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-build && C:\Users\Danie\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-build/cmake_uninstall.cmake
+	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-build && C:\Users\Danie\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-build/cmake_uninstall.cmake
 
 uninstall: _deps/raylib-build/CMakeFiles/uninstall
 uninstall: _deps/raylib-build/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ _deps/raylib-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/raylib-build/CMakeFiles/uninstall.dir/build
 
 _deps/raylib-build/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-build && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-build && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : _deps/raylib-build/CMakeFiles/uninstall.dir/clean
 
 _deps/raylib-build/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Danie\Documents\GitHub\HAKIM_CAT C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-build C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-build\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Danie\Documents\GitHub\HAKIM_GAME C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-build C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-build\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/raylib-build/CMakeFiles/uninstall.dir/depend
 

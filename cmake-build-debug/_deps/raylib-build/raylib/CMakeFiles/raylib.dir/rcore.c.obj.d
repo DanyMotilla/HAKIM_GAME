@@ -1,6 +1,6 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rcore.c \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\raylib.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rcore.c \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\raylib.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -10,8 +10,8 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\config.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\utils.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\config.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\utils.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
@@ -36,29 +36,29 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/math.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rlgl.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/glad.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rlgl.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/glad.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\raymath.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rgestures.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\rcamera.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/msf_gif.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\raymath.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rgestures.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\rcamera.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/msf_gif.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/sinfl.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/sinfl.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/assert.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/sdefl.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\external/rprand.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/sdefl.h \
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external/rprand.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/stat.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/io.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/dirent.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/direct.h \
- C:\Users\Danie\Documents\GitHub\HAKIM_CAT\cmake-build-debug\_deps\raylib-src\src\platforms/rcore_desktop.c \
- C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
- C:/Users/Danie/Documents/GitHub/HAKIM_CAT/cmake-build-debug/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h
+ C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\platforms/rcore_desktop.c \
+ C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
+ C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h
