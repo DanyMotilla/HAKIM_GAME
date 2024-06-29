@@ -62,6 +62,7 @@ int main(void)
         // Update
         //----------------------------------------------------------------------------------
         // TODO: Update your variables here
+        // test commit
 
         // Player movement
         if (IsKeyDown(KEY_D)) playerPosition.x += 2;
