@@ -92,8 +92,8 @@ HAKIM_GAME_EXTERNAL_OBJECTS =
 
 HAKIM_GAME.exe: CMakeFiles/HAKIM_GAME.dir/main.c.obj
 HAKIM_GAME.exe: CMakeFiles/HAKIM_GAME.dir/build.make
+HAKIM_GAME.exe: _deps/box2d-build/src/libbox2d.a
 HAKIM_GAME.exe: _deps/raylib-build/raylib/libraylib.a
-HAKIM_GAME.exe: _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 HAKIM_GAME.exe: CMakeFiles/HAKIM_GAME.dir/linkLibs.rsp
 HAKIM_GAME.exe: CMakeFiles/HAKIM_GAME.dir/objects1.rsp
 HAKIM_GAME.exe: CMakeFiles/HAKIM_GAME.dir/link.txt

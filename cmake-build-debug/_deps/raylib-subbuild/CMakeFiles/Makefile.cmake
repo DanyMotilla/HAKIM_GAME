@@ -7,8 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+  "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject.cmake"
@@ -16,8 +18,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/RepositoryInfo.txt.in"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/UpdateInfo.txt.in"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/cfgcmd.txt.in"
-  "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/download.cmake.in"
-  "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/extractfile.cmake.in"
+  "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/gitclone.cmake.in"
+  "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/gitupdate.cmake.in"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/mkdirs.cmake.in"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake"
   "C:/Users/Danie/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake"
@@ -36,10 +38,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/3.29.3/CMakeSystem.cmake"
   "raylib-populate-prefix/tmp/raylib-populate-mkdirs.cmake"
-  "raylib-populate-prefix/src/raylib-populate-stamp/download-raylib-populate.cmake"
-  "raylib-populate-prefix/src/raylib-populate-stamp/extract-raylib-populate.cmake"
-  "raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-urlinfo.txt"
+  "raylib-populate-prefix/tmp/raylib-populate-gitclone.cmake"
+  "raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt"
+  "raylib-populate-prefix/tmp/raylib-populate-gitupdate.cmake"
   "raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update-info.txt"
   "raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch-info.txt"
   "raylib-populate-prefix/tmp/raylib-populate-cfgcmd.txt"

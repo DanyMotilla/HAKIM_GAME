@@ -194,6 +194,32 @@ HAKIM_GAME/fast:
 .PHONY : HAKIM_GAME/fast
 
 #=============================================================================
+# Target rules for targets named simde
+
+# Build rule for target.
+simde: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simde
+.PHONY : simde
+
+# fast build rule for target.
+simde/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\box2d-build\extern\simde\CMakeFiles\simde.dir\build.make _deps/box2d-build/extern/simde/CMakeFiles/simde.dir/build
+.PHONY : simde/fast
+
+#=============================================================================
+# Target rules for targets named box2d
+
+# Build rule for target.
+box2d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 box2d
+.PHONY : box2d
+
+# fast build rule for target.
+box2d/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\box2d-build\src\CMakeFiles\box2d.dir\build.make _deps/box2d-build/src/CMakeFiles/box2d.dir/build
+.PHONY : box2d/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -286,8 +312,10 @@ help:
 	@echo ... uninstall
 	@echo ... update_mappings
 	@echo ... HAKIM_GAME
+	@echo ... box2d
 	@echo ... glfw
 	@echo ... raylib
+	@echo ... simde
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

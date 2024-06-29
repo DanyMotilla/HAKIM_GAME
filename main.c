@@ -14,6 +14,8 @@
  *******************************************************************************************/
 
 #include "raylib.h"
+#include "raymath.h"
+#include "box2d/box2d.h"
 
 #define MAX_FRAME_SPEED 15
 #define MIN_FRAME_SPEED 1

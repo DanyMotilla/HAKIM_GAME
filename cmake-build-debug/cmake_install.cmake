@@ -38,9 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-build/cmake_install.cmake")
+  # Include the install script for the subdirectory.
+  include("C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

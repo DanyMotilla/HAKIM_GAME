@@ -1,7 +1,7 @@
 # Setup the project and settings
 project(raylib C)
-set(PROJECT_VERSION 4.5.0)
-set(API_VERSION 450)
+set(PROJECT_VERSION 5.0.0)
+set(API_VERSION 500)
 
 include(GNUInstallDirs)
 include(JoinPaths)
@@ -15,7 +15,7 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     endif()
 
     message(STATUS "Setting build type to '${default_build_type}' as none was specified.")
-    
+
     set(CMAKE_BUILD_TYPE "${default_build_type}" CACHE STRING "Choose the type of build." FORCE)
     set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
 endif()
@@ -62,16 +62,17 @@ if (NOT BUILD_SHARED_LIBS)
     add_library(raylib_static ALIAS raylib)
 else()
     MESSAGE(STATUS "Building raylib shared library")
-    if (WIN32)
-        target_compile_definitions(raylib
-                                   PRIVATE $<BUILD_INTERFACE:BUILD_LIBTYPE_SHARED>
-                                   INTERFACE $<INSTALL_INTERFACE:USE_LIBTYPE_SHARED>
-                                   )
-    endif ()
+    target_compile_definitions(raylib
+                               PRIVATE $<BUILD_INTERFACE:BUILD_LIBTYPE_SHARED>
+                               INTERFACE $<INSTALL_INTERFACE:USE_LIBTYPE_SHARED>
+                               )
 endif()
 
 if (${PLATFORM} MATCHES "Web")
-    target_link_options(raylib PRIVATE "-sUSE_GLFW=3")
+    target_link_options(raylib PUBLIC "-sUSE_GLFW=3")
+    if(${GRAPHICS} MATCHES "GRAPHICS_API_OPENGL_ES3")
+        target_link_options(raylib PUBLIC "-sFULL_ES3")
+    endif()
 endif()
 
 set_target_properties(raylib PROPERTIES
@@ -82,6 +83,11 @@ set_target_properties(raylib PROPERTIES
 
 if (WITH_PIC OR BUILD_SHARED_LIBS)
     set_property(TARGET raylib PROPERTY POSITION_INDEPENDENT_CODE ON)
+endif ()
+
+if (BUILD_SHARED_LIBS)
+    # Hide raylib's symbols by default so RLAPI can expose them
+    set_property(TARGET raylib PROPERTY C_VISIBILITY_PRESET hidden)
 endif ()
 
 target_link_libraries(raylib "${LIBS_PRIVATE}")

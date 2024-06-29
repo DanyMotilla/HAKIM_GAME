@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="box2d"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\raylib-src\;CMake Files\cmake-build-debug\_deps\raylib-src\src\;CMake Files\cmake-build-debug\_deps\raylib-src\src\external\;CMake Files\cmake-build-debug\_deps\raylib-src\src\external\glfw\;CMake Files\cmake-build-debug\_deps\raylib-src\src\external\glfw\CMake\;CMake Files\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\;CMake Files\cmake-build-debug\_deps\raylib-src\cmake\;CMake Files\cmake-build-debug\_deps\box2d-src\;CMake Files\cmake-build-debug\_deps\box2d-src\extern\;CMake Files\cmake-build-debug\_deps\box2d-src\extern\simde\;CMake Files\cmake-build-debug\_deps\box2d-src\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="box2d">
+				<Option output="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/libbox2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/../include"/>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src"/>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src"/>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/extern/simde"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 box2d"/>
+					<CompileFile command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="box2d/fast">
+				<Option output="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/libbox2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/../include"/>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src"/>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src"/>
+					<Add directory="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/extern/simde"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 box2d/fast"/>
+					<CompileFile command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/include/box2d/base.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/include/box2d/box2d.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/include/box2d/collision.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/include/box2d/id.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/include/box2d/math_functions.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/include/box2d/types.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/aabb.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/aabb.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/allocate.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/allocate.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/array.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/array.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/bitset.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/bitset.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/block_array.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/block_array.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/body.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/body.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/broad_phase.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/broad_phase.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/constraint_graph.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/constraint_graph.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/contact.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/contact.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/contact_solver.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/contact_solver.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/core.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/core.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/ctz.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/distance.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/distance_joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/dynamic_tree.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/geometry.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/hull.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/id_pool.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/id_pool.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/island.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/island.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/joint.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/manifold.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/math_functions.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/motor_joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/mouse_joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/prismatic_joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/revolute_joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/shape.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/shape.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/solver.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/solver.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/solver_set.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/solver_set.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/stack_allocator.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/stack_allocator.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/table.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/table.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/timer.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/types.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/weld_joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/wheel_joint.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/world.c">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/world.h">
+			<Option target="box2d"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/CMakeOptions.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/raylib.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\src\external\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\src\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\src\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/BuildOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/CompileDefinitions.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/CompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/EnumOption.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/GlfwImport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/InstallConfigurations.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/LibraryConfigurations.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/PackConfigurations.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/ParseConfigHeader.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/Uninstall.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/cmake/raylib-config-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\raylib-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\box2d-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/extern/simde/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\box2d-src\extern\simde\"/>
+		</Unit>
+		<Unit filename="C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/box2d-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\box2d-src\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

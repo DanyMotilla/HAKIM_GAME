@@ -240,5 +240,6 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.o
  C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_joystick.h \
  C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_thread.h \
  C:\Users\Danie\Documents\GitHub\HAKIM_GAME\cmake-build-debug\_deps\raylib-src\src\external\glfw\src\win32_time.h \
+ C:/Users/Danie/Documents/GitHub/HAKIM_GAME/cmake-build-debug/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/windowsx.h \
  C:/Users/Danie/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/shellapi.h

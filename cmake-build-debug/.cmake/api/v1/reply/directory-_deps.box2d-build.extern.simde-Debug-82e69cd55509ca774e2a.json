@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/box2d-build/extern/simde",
+		"source" : "cmake-build-debug/_deps/box2d-src/extern/simde"
+	}
+}
